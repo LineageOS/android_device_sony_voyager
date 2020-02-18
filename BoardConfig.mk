@@ -28,5 +28,8 @@ TARGET_KERNEL_CONFIG := voyager_defconfig
 # MAC address setup
 BOARD_HAS_MIRROR_MACADDRESS := true
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # inherit from the proprietary version
 -include vendor/sony/voyager/BoardConfigVendor.mk
