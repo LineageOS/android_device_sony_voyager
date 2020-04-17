@@ -1,3 +1,5 @@
+# All unpinned blobs below are extracted from H4413_Customized CE1_1315-9866_50.2.A.3.55_R1B
+
 # Audio ACDB
 vendor/etc/acdbdata/Sony/Sony_ganges_Bluetooth_cal.acdb
 vendor/etc/acdbdata/Sony/Sony_ganges_General_cal.acdb
