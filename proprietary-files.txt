@@ -98,18 +98,6 @@ vendor/firmware/bu64747gwz.prog
 vendor/lib/libactuator_bu64747gwz.so
 
 # Camera chromatix
-vendor/lib/libchromatix_imx219_chicony_common.so
-vendor/lib/libchromatix_imx219_chicony_cpp_snapshot_B.so
-vendor/lib/libchromatix_imx219_chicony_cpp_snapshot.so
-vendor/lib/libchromatix_imx219_chicony_cpp_video.so
-vendor/lib/libchromatix_imx219_chicony_postproc.so
-vendor/lib/libchromatix_imx219_chicony_snapshot.so
-vendor/lib/libchromatix_imx219_chicony_video.so
-vendor/lib/libchromatix_imx219_chicony_zsl_preview_3rd_lc898122.so
-vendor/lib/libchromatix_imx219_chicony_zsl_preview_lc898122.so
-vendor/lib/libchromatix_imx219_chicony_zsl_video_lc898122.so
-vendor/lib/libchromatix_imx219_cpp_snapshot.so
-vendor/lib/libchromatix_imx219_cpp_video.so
 vendor/lib/libchromatix_imx219_sm42_common.so
 vendor/lib/libchromatix_imx219_sm42_cpp_snapshot_B.so
 vendor/lib/libchromatix_imx219_sm42_cpp_snapshot.so
@@ -120,7 +108,6 @@ vendor/lib/libchromatix_imx219_sm42_video.so
 vendor/lib/libchromatix_imx219_sm42_zsl_preview_3rd.so
 vendor/lib/libchromatix_imx219_sm42_zsl_preview.so
 vendor/lib/libchromatix_imx219_sm42_zsl_video.so
-vendor/lib/libchromatix_imx300_cpp_snapshot.so
 vendor/lib/libchromatix_imx300_sm42_4K_panorama.so
 vendor/lib/libchromatix_imx300_sm42_4K_preview.so
 vendor/lib/libchromatix_imx300_sm42_4K_video_hdr.so
@@ -149,10 +136,9 @@ vendor/lib/libchromatix_imx300_sm42_zsl_video_hdr_3a.so
 vendor/lib/libchromatix_imx300_sm42_zsl_video.so
 
 # Camera configs
-vendor/etc/camera/sm12_camera_config.xml
-vendor/etc/camera/imx219_chicony_chromatix.xml
-vendor/etc/camera/imx219_chromatix.xml
-vendor/etc/camera/imx300_chromatix.xml
+vendor/etc/camera/sm42_camera_config.xml
+vendor/etc/camera/imx219_sm42_chromatix.xml
+vendor/etc/camera/imx300_sm42_chromatix.xml
 
 # Camera eeproms
 vendor/lib/libmmcamera_sony_imx219_eeprom.so
@@ -255,7 +241,6 @@ vendor/etc/IMX300/ISO9000_3200x1808.ncf
 # Camera sensors
 vendor/lib/libmmcamera2_sensor_modules.so
 vendor/lib/libmmcamera_imx219.so
-vendor/lib/libmmcamera_imx219_chicony.so
 vendor/lib/libmmcamera_imx300.so
 vendor/lib/libmmcamera_isp_abf48.so
 vendor/lib/libmmcamera_isp_aec_bg_stats47.so
@@ -303,7 +288,7 @@ vendor/lib/libmmcamera_isp_snr47.so
 vendor/lib/libmmcamera_isp_sub_module.so
 
 # Display calibration data
-vendor/etc/qdcm_calib_data_5.xml
+vendor/etc/qdcm_calib_data_7.xml
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
