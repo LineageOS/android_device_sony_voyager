@@ -17,16 +17,16 @@
 # inherit from common nile-common
 -include device/sony/nile-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/sony/pioneer
+DEVICE_PATH := device/sony/voyager
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := pioneer_defconfig
+TARGET_KERNEL_CONFIG := voyager_defconfig
 
 # MAC address setup
 BOARD_HAS_MIRROR_MACADDRESS := true
 
 # inherit from the proprietary version
--include vendor/sony/pioneer/BoardConfigVendor.mk
+-include vendor/sony/voyager/BoardConfigVendor.mk

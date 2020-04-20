@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-export DEVICE=pioneer
+export DEVICE=voyager
 export DEVICE_COMMON=nile-common
 export VENDOR=sony
 

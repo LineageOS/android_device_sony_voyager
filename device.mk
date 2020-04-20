@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
 # call the proprietary setup
-$(call inherit-product, vendor/sony/pioneer/pioneer-vendor.mk)
+$(call inherit-product, vendor/sony/voyager/voyager-vendor.mk)
 
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += \

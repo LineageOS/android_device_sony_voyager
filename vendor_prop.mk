@@ -16,10 +16,10 @@
 
 # SEMC
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.semc.product.model=H3113 \
+    ro.semc.product.model=H4413 \
     ro.semc.version.fs=GENERIC \
-    ro.semc.version.fs_revision=50.2.A.3.22 \
-    ro.semc.version.sw=1311-2845 \
-    ro.semc.version.sw_revision=50.2.A.3.22 \
+    ro.semc.version.fs_revision=50.2.A.3.55 \
+    ro.semc.version.sw=1315-1734 \
+    ro.semc.version.sw_revision=50.2.A.3.55 \
     ro.semc.version.sw_type=user \
-    ro.semc.version.sw_variant=GLOBAL-A1
+    ro.semc.version.sw_variant=GLOBAL-A2
