@@ -19,6 +19,9 @@
 
 DEVICE_PATH := device/sony/voyager
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
