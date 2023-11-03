@@ -1,1 +1,1 @@
-require board=H3413|H4413|H4493
+require board=voyager|H3413|H4413|H4493
