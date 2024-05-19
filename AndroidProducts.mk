@@ -16,8 +16,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_voyager.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_voyager-user \
-    lineage_voyager-userdebug \
-    lineage_voyager-eng
